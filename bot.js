@@ -283,4 +283,4 @@ kanal.setParent(kategori.id)
 
 });
 
-client.login(ayarlar.token);
+client.login(process.evn.bot-token);
